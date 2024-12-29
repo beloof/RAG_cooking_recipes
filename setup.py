@@ -6,25 +6,20 @@ setup(
     packages=find_packages(),
     install_requires=[
         "pandas",
-        "ast",
         "langchain",
-        "langchain_mistralai",
         "streamlit",
-        "huggingface-hub",
         "faiss-cpu",
-        "python-dotenv",
         "sentence-transformers",
+        "langchain_community",
+        "langchain_mistralai",
+        "huggingface-hub",
+        "python-dotenv",
     ],
-    entry_points={
-        'console_scripts': [
-            'ai_recipe_app = app:main',  # Change 'app:main' to the correct entry point
-        ]
-    },
     author="LASSIOUED Badis",
     description="A web app to generate AI-powered recipe suggestions.",
     long_description=open('README.md').read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/ai-recipe-recommendation-app",  # Change to your GitHub URL
+    url="https://github.com/beloof/RAG_cooking_recipes",
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
