@@ -68,7 +68,7 @@ python data_prep.py
 
 ### **5. Launch the Streamlit app**
 ```
-streamlit run rag_app.py  
+streamlit run file_location\rag_app.py  
 ```
 ---
 
@@ -92,7 +92,7 @@ The recipe data used in this project is sourced from the [recipe-dataset reposit
 
 ## Licenses
 
-- The **code** in this repository is licensed under the [MIT License](LICENSE).
+- The **code** in this repository is licensed under the [MIT License](LICENSE.txt).
 - The **data** (including `recipes.csv` and `recipes_cleaned.csv`) is licensed under the **[Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)](https://creativecommons.org/licenses/by-sa/3.0/)** license.
 
 ---
