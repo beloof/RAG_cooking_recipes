@@ -37,7 +37,7 @@ To run this project locally, you need the following Python libraries:
 ### **1. Clone the repository**
 
 ```
-git clone https://github.com/yourusername/RAG_cooking_recipes.git
+git clone https://github.com/beloof/RAG_cooking_recipes.git
 ```
 
 ### **2. Install dependencies**
