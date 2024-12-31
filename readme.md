@@ -37,13 +37,13 @@ To run this project locally, you need the following Python libraries:
 ### **1. Clone the repository**
 
 ```
-git clone https://github.com/yourusername/ai-recipe-recommendation-app.git
+git clone https://github.com/yourusername/RAG_cooking_recipes.git
 ```
 
 ### **2. Install dependencies**
 
 ```
-cd ai-recipe-recommendation-app
+cd RAG_cooking_recipes
 pip install .
 ```
 
@@ -75,7 +75,7 @@ streamlit run file_location\rag_app.py
 ## Repository Structure
 
 ```
-ai-recipe-recommendation-app/
+RAG_cooking_recipes/
 ├── faiss_index/               # Directory to store FAISS index files  
 ├── data_prep.py               # Script to prepare the dataset and build FAISS index  
 ├── rag_app.py                 # Main Streamlit app for recipe generation  
